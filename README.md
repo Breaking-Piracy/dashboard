@@ -215,3 +215,18 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+## Local Setup for BreakingPiracy
+
+1. conda create -yn dashboard python=3.9
+2. conda activate dashboard
+3. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+4. source ~/.nvm/nvm.sh
+5. nvm install 18
+6. nvm use 18
+7. npm install
+8. conda install ruby=2.7.6
+9. gem install bundler
+10.bundle install
+11.npm run start
